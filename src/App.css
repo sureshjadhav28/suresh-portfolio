@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+
+
+*{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family:Arial;
+  /* background-image:url(backpic.jpg) ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  color: white;
+  padding: 20px;
+  height: 100px;
+  width:100%;
   display: flex;
-  flex-direction: column;
+  /* border: 2px solid white; */
+  position: fixed;
+}
+.header h2{
+  color: rgb(218, 218, 69);
+  width: 20%;
+  padding-top:30px ;
+  padding-left: 20px;
+}
+.menu-icon{
+  margin-left: 20px;
+  width: 10%;
+  padding-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 30px;
+}
+ .header-list{
+  color:white;
+  width: 50%;
+  padding-top: 30px;
+  margin-left: 15%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-around;
+
+ }
+ .header-list a{
+  color: white;
+  text-decoration: none;
+ }
+ .header-list a:hover{
+  color: rgb(221, 221, 60);
+ }
+ .header-list a:active{
+  color: rgb(221, 221, 60);
+ }
+ .header-list a:visited{
+  color: white;
+ }
+ .header-list a:focus{
+  color: rgb(221, 221, 60);
+ }
+ .header-list a:link{
+  color: white;
+ }
+ 
+ .main{
+  height: 1000px;
+  width: 100%;
+  display: flex;
+ }
+ .about{
+  color: white;
+  height: 300px;
+  width: 27%;
+  justify-content: center;
+  /* border: 2px solid white; */
+  margin-top: 350px;
+  position: absolute;
+  margin-left:150px;
+  
+ }
+ .head1{
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  align-items: start;
+  
+ }
+ .about p{
+  font-size: 20px;
+  color: rgb(190, 171, 171);
+ }
+ .photo img{
+  height: 1400px;
+  width:80%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* border: 2px solid white;  */
+  margin-left: 400px;
+  ;
+ }
+ 
+ .about-me{
   color: white;
-}
+  height: 300px;
+  width: 27%;
+  justify-content: center;
+  /* border: 2px solid white; */
+  margin-top: 650px;
+  position: absolute;
+  margin-left: 1900px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .about-me p{
+  font-size: 20px;
+  color: rgb(190, 171, 171);
+ }
+ .follow{
+  position:absolute;
+  margin-left: 1900px;
+  margin-top: 1100px;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+ }
+ 
+.buttons{
+  display: flex;
+  justify-content: space-between;
+ }
+ .buttons button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  margin-top: 20px;
+ }
+ .follow button:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+ }
+ .head2{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: start;
+ }
